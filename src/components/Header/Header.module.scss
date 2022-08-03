@@ -1,0 +1,32 @@
+.header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem 1rem;
+}
+
+.center-container {
+  width: 100%;
+  max-width: 1200px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.nav {
+  ul {
+    display: flex;
+    gap: 2.5rem;
+
+    @media (max-width: 768px) {
+      display: none;
+    }
+  }
+
+  li {
+    list-style: none;
+    color: #777;
+    cursor: pointer;
+    font-size: 0.95rem;
+  }
+}

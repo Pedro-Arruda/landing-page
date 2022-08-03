@@ -1,0 +1,58 @@
+.section-about {
+  padding: 4rem;
+}
+
+.about-content {
+  display: flex;
+  gap: 5rem;
+
+  img {
+    height: 380px;
+  }
+
+  h1 {
+    font-size: 2.5rem;
+    &::after {
+      content: "";
+      background: linear-gradient(to right, #5ca9fb 0%, #6372ff 100%);
+      width: 55px;
+      margin-top: 10px;
+      height: 4px;
+    }
+  }
+
+  @media (max-width: 768px) {
+    flex-direction: column;
+  }
+}
+
+.info-about {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+
+  p {
+    color: #777;
+    line-height: 25px;
+  }
+
+  h2 {
+    font-weight: normal;
+  }
+
+  h1 {
+    text-transform: uppercase;
+    font-size: 2rem;
+  }
+
+  li {
+    color: #777;
+    padding: 3px;
+  }
+}
+
+.details-info {
+  display: flex;
+  justify-content: space-around;
+  gap: 4rem;
+}

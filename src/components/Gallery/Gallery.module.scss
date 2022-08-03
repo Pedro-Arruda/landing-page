@@ -1,0 +1,38 @@
+.section-gallery {
+  margin-top: 70px;
+
+  h1 {
+    font-size: 2.3rem;
+    text-transform: uppercase;
+  }
+  p {
+    color: #777;
+    font-size: 1.1rem;
+  }
+}
+
+.gallery-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1.5rem;
+  flex-direction: column;
+}
+
+.gallery {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 5px;
+
+  margin-top: 40px;
+
+  img {
+    max-width: 390px;
+  }
+
+  img:hover {
+    transform: scale(1.01);
+    transition: all 0.5s;
+  }
+}
