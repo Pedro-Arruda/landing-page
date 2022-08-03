@@ -48,25 +48,25 @@ export const Header = () => {
         {isOpen && (
           <div className={styles["responsive-menu-active"]}>
             <ul>
-              <li>
+              <li onClick={() => setIsOpen(false)}>
                 <a href="#features">FEATURES</a>
               </li>
-              <li>
+              <li onClick={() => setIsOpen(false)}>
                 <a href="#about-us">ABOUT US</a>
               </li>
-              <li>
+              <li onClick={() => setIsOpen(false)}>
                 <a href="#our-services">SERVICES</a>
               </li>
-              <li>
+              <li onClick={() => setIsOpen(false)}>
                 <a href="#gallery">GALLERY</a>
               </li>
-              <li>
+              <li onClick={() => setIsOpen(false)}>
                 <a href="#clients">CLIENTS</a>
               </li>
-              <li>
+              <li onClick={() => setIsOpen(false)}>
                 <a href="#team">TEAM</a>
               </li>
-              <li>
+              <li onClick={() => setIsOpen(false)}>
                 <a href="#get-touch">CONTACT</a>
               </li>
             </ul>
