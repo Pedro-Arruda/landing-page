@@ -48,13 +48,27 @@ export const Header = () => {
         {isOpen && (
           <div className={styles["responsive-menu-active"]}>
             <ul>
-              <li>FEATURES</li>
-              <li>ABOUT</li>
-              <li>SERVICES</li>
-              <li>GALLERY</li>
-              <li>TESTIMONIALS</li>
-              <li>TEAM</li>
-              <li>CONTACT</li>
+              <li>
+                <a href="#features">FEATURES</a>
+              </li>
+              <li>
+                <a href="#about-us">ABOUT US</a>
+              </li>
+              <li>
+                <a href="#our-services">SERVICES</a>
+              </li>
+              <li>
+                <a href="#gallery">GALLERY</a>
+              </li>
+              <li>
+                <a href="#clients">CLIENTS</a>
+              </li>
+              <li>
+                <a href="#team">TEAM</a>
+              </li>
+              <li>
+                <a href="#get-touch">CONTACT</a>
+              </li>
             </ul>
           </div>
         )}
