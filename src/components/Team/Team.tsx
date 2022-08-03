@@ -2,7 +2,7 @@ import styles from "./Team.module.scss";
 
 export const Team = () => {
   return (
-    <section className={styles["section-team"]}>
+    <section className={styles["section-team"]} id="team">
       <div className="container">
         <div className={styles["team-content"]}>
           <h1>MEET THE TEAM</h1>

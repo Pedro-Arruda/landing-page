@@ -24,7 +24,7 @@ export const Features = () => {
   }, []);
 
   return (
-    <section className={styles["section-features"]}>
+    <section className={styles["section-features"]} id="features">
       <div className="container">
         <div className={styles["features-content"]}>
           <h1>Features</h1>

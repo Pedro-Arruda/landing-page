@@ -3,7 +3,7 @@ import about from "../../assets/about.jpg";
 
 export const AboutUs = () => {
   return (
-    <section className={styles["section-about"]}>
+    <section className={styles["section-about"]} id="about-us">
       <div className="container">
         <div className={styles["about-content"]}>
           <img src={about} alt="sobre" />

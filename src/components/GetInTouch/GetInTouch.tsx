@@ -3,7 +3,7 @@ import { FaFacebookF, FaInstagram, FaTwitter } from "react-icons/fa";
 
 export const GetInTouch = () => {
   return (
-    <section className={styles["get-touch-section"]}>
+    <section className={styles["get-touch-section"]} id="get-touch">
       <div className="container">
         <div className={styles["get-touch-content"]}>
           <div className={styles["get-touch-form"]}>
