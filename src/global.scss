@@ -7,21 +7,22 @@ html,
 body {
   font-size: 16px;
   font-family: "Open Sans", sans-serif;
+  scroll-behavior: smooth;
 }
 
-@media (min-width: 576px) {
+@media (max-width: 576px) {
   html {
     font-size: 87.5%;
   }
 }
 
-@media (min-width: 768px) {
+@media (max-width: 768px) {
   html {
     font-size: 93.74%;
   }
 }
 
-@media (min-width: 1024px) {
+@media (max-width: 1024px) {
   html {
     font-size: 100%;
   }
@@ -35,4 +36,11 @@ body {
 
 p {
   color: #777;
+}
+
+a {
+  text-decoration: none;
+  color: #777;
+  cursor: pointer;
+  font-size: 0.9rem;
 }

@@ -2,7 +2,7 @@ import styles from "./Clients.module.scss";
 
 export const Clients = () => {
   return (
-    <section className={styles["clients-section"]}>
+    <section className={styles["clients-section"]} id="clients">
       <div className="container">
         <div className={styles["clients-content"]}>
           <h1>WHAT OUR CLIENTS SAY</h1>

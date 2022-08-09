@@ -12,7 +12,7 @@ export const Gallery = () => {
   // }, []);
 
   return (
-    <section className={styles["section-gallery"]}>
+    <section className={styles["section-gallery"]} id="gallery">
       <div className="container">
         <div className={styles["gallery-content"]}>
           <h1>Gallery</h1>

@@ -10,7 +10,7 @@ import styles from "./OurService.module.scss";
 
 export const OurServices = () => {
   return (
-    <section className={styles["section-our-services"]}>
+    <section className={styles["section-our-services"]} id="our-services">
       <div className="container">
         <div className={styles["our-services-content"]}>
           <h1>Our Services</h1>

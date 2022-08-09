@@ -1,13 +1,16 @@
 .section-about {
   padding: 4rem;
+  display: flex;
+  justify-content: center;
 }
 
 .about-content {
   display: flex;
+  justify-content: center;
   gap: 5rem;
 
   img {
-    height: 380px;
+    height: 23rem;
   }
 
   h1 {
